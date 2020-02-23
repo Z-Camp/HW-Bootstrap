@@ -1,6 +1,8 @@
-/* additional padding needed to account for fixed position navbar */
 body{
+    /* additional padding needed to account for fixed position navbar */
     padding-top: 100px;
+    /* additional padding needed to account for fixed position footer */
+    padding-bottom: 80px;
     /* setting a background image for all pages */
     background: url('https://bgfons.com/uploads/lines/lines_texture1095.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;

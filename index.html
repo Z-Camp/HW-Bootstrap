@@ -4,17 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me</title>
+    <!-- Reference sheets for bootstrap css/js -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="index.css" />
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
+      <!-- Generic navbar with coloring -->
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top mt-2">
       <a class="navbar-brand bg-success p-3" href="index.html"
         >This is a Portfolio</a
@@ -30,6 +44,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+      <!-- Adjusting navbar options to right side -->
       <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -47,10 +62,11 @@
       </div>
     </nav>
     <div class="container bg-light">
+        <!-- Title of page with border for sectioning -->
       <div class="row border-bottom border-dark ml-3 mr-3 pt-3">
         <h1 class="text-dark">About Me</h1>
       </div>
-
+<!-- row containing image and text to allow for floating/ wrapping -->
       <div class="row">
         <div class="col-md-11 col-xs-12 mt-3 pb-2">
           <img
@@ -69,7 +85,7 @@
             malesuada enim sit amet eros euismod posuere. Vestibulum eget quam
             ac lorem pretium gravida sed facilisis nisl.
           </p>
-          <br>
+          <br />
           <p>
             Nam convallis iaculis posuere. Nunc lacinia diam eget magna
             fermentum, id malesuada ex bibendum. Etiam eget ligula nec libero
@@ -80,7 +96,7 @@
             vestibulum placerat libero. Nunc porttitor mi eu nibh suscipit
             hendrerit.
           </p>
-          <br/>
+          <br />
           <p>
             Praesent cursus pretium ligula, eu venenatis neque accumsan ut.
             Maecenas sollicitudin metus diam, a eleifend odio pharetra id.
@@ -95,5 +111,12 @@
         </div>
       </div>
     </div>
+    <!-- Sticky footer at bottom of page -->
+    <footer class="page-footer font-small blue fixed-bottom bg-light">
+      <div class="footer-copyright text-center py-3">
+        © 2020 Copyright:
+        <a href="index.html"> Zachary Campbell</a>
+      </div>
+    </footer>
   </body>
 </html>
