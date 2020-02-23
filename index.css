@@ -1,0 +1,17 @@
+/* additional padding needed to account for fixed position navbar */
+body{
+    padding-top: 100px;
+    /* setting a background image for all pages */
+    background: url('https://bgfons.com/uploads/lines/lines_texture1095.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/* providing spacing between rows */
+.row-pad{
+    margin-top: 15px;
+}
+p{
+    line-height: 30px;
+}
