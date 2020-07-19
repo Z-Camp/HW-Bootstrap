@@ -1,5 +1,4 @@
-# HW-Bootstrap
-
+# HW-Portfolio
 Portfolio site made with bootstrap for minimal manual CSS
 
 Three pages highlighting different techniques/ possibilities of Bootstrap
